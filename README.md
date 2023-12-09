@@ -4,9 +4,6 @@
 **Technology stack**
 * *Image Processing*: Pillow
 
-# Screenshots:
-*TODO*
-
 # Installation:
 ```bash
 git clone https://github.com/ornarasus/File2Pic.git
@@ -16,17 +13,17 @@ pip3 install -r requirements.txt
 
 # Usage
 ```
-usage: file2pic.py [-h] [-d] input output
+usage: file2pic.py [-h] [-d] file_path picture_name
 
-Encoding file (up to 2.5 GB) in picture
+Encoding file (up to 2.5 GB) to picture
 
 positional arguments:
-  input         Input file's path
-  output        Output file's path
+  file_path     Absolute/relative path to the file
+  picture_name  ONLY picture's name
 
 options:
   -h, --help    show this help message and exit
-  -d, --decode  Decoding file from picture
+  -d, --decode  decoding file from picture
 ```
 
 # Usage Examples

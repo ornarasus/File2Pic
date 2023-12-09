@@ -28,4 +28,4 @@ options:
 
 # Usage Examples
 1) Encode file.zip to pic.png `python3 file2pic.py file.zip pic`
-1) Decode file.zip from pic.png `python3 file2pic.py -d pic file.zip`
+1) Decode file.zip from pic.png `python3 file2pic.py -d file.zip pic`
